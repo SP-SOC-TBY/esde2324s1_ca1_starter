@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 });
 
 
-app.listen(port,hostname,function(){
-
+//app.listen(port,hostname,function(){
+app.listen(port, function(){
     console.log(`Server hosted at http://${hostname}:${port}`);
 });
